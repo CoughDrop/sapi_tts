@@ -1,0 +1,17 @@
+{
+  "main": "sapi_tts",
+  "name": "sapi_tts",
+  "version": "0.1.1",
+  "description": "Node handles for accessing SAPI",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coughdrop/sapi_tts.git"
+  },
+  "scripts": {
+    "install": "echo 'ok'",
+    "o-install": "node-gyp rebuild"
+  },
+  "dependencies": {
+  },
+  "readme": "README.md"
+}
