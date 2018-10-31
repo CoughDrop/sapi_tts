@@ -3,10 +3,12 @@
     if(typeof(requireNode) != 'undefined') { req = requireNode; }
     var sapi = null;
     try {
-        if (process.arch == 'ia32') {
-            sapi = req('sapi_tts/sapi_tts.32');
-        } else {
-            sapi = req('sapi_tts/sapi_tts.64');
+        if(process.platform == 'win32') {
+            if (process.arch == 'ia32') {
+                sapi = req('sapi_tts/sapi_tts.32');
+            } else {
+                sapi = req('sapi_tts/sapi_tts.64');
+            }
         }
     } catch (e) { }
 
