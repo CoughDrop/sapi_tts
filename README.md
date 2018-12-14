@@ -30,6 +30,13 @@ tts.speakText({
 tts.stopSpeakingText();
 ```
 
+NOTE: The precompiled binaries are for a specific version of 
+Electron, and may need to be recompiled for your version. I'm not
+smart enough to know how to address this problem, feel free to 
+issue a pull request if you are. In the mean time, I'm going to
+keep it tied to the version of Electron's node-gyp as used for
+coughdrop/coughdrop-desktop.
+
 
 ## License
 MIT License
