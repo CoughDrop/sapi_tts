@@ -37,6 +37,16 @@ issue a pull request if you are. In the mean time, I'm going to
 keep it tied to the version of Electron's node-gyp as used for
 coughdrop/coughdrop-desktop.
 
+## Compiling
+Compiles to a specific version of node, so most likely the compiled
+binaries won't work for you. You can recompile them using node-gyp
+
+```
+npm install -g node-gyp
+node-gyp clean
+node-gyp configure --target=vX.X.X --arch=<ia32 or x64>
+node-gyp build
+```
 
 ## License
 MIT License
