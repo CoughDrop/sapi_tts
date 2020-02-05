@@ -17,7 +17,6 @@
         },
         enabled: false
     };
-    console.log("SAPI", sapi);
     if (sapi) {
         tts.enabled = true;
         tts.sapi = sapi;
