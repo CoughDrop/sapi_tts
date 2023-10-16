@@ -1,5 +1,6 @@
 # SAPI TTS
 Node module for supporting Windows SAPI voices in an Electron app. Outside of Electron your mileage may vary. Windows only.
+SAPI documentation used for implementation: https://learn.microsoft.com/en-us/previous-versions/office/developer/speech-technologies/jj127903(v=msdn.10)
 
 ## Requirements
 Windows
